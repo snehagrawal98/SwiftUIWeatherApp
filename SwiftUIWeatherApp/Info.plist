@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>This app requires your location to provide Weather Data.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app requires your location to provide Weather Data.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>"app wants to use location data"</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>"app wants to use location data"</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
